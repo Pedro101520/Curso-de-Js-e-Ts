@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo HTML</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1 id="tempo">TIMER</h1>
+        <div class="componentes">
+            <p id="relogio">00:00:00</p>
+            <div id="botoes">
+                <button id="play" onclick="return iniciar()">INICIAR</button>
+                <button id="pause" onclick="return pausar()">PARAR</button>
+                <button id="stop" onclick="return zerar()">ZERAR</button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./assets/JS/main.js"></script>
+</body>
+
+</html>

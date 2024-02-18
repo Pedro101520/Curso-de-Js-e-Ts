@@ -1,0 +1,11 @@
+const nome = "Pedro";
+const sobrenome = "Lima";
+const idade = "19";
+const peso = "85";
+const altura = 1.80;
+let imc;
+let anoNascimento;
+console.log(`${nome} ${sobrenome} tem ${idade} anos e pesa ${peso} Kg`);
+imc = peso / (altura * altura);
+console.log(`tem altura de ${altura} e seu imc é de: ${imc.toFixed(2)}`);
+console.log(`O ano de nascimento é: ${2022 - idade}`);
