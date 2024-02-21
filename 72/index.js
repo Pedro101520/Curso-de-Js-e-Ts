@@ -32,7 +32,7 @@ conta1.verSaldo();
 
 //Aqui é a herança, e vai ser demonstrado o polimorfismo - CC = Conta Corrente
 function CC(agencia, conta, saldo, limite){
-    Conta.call(agencia, conta, saldo);
+    Conta.call(this, agencia, conta, saldo);
     this.limite = limite;
 }
 
