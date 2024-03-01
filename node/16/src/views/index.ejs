@@ -1,0 +1,20 @@
+<!-- Aqui serve para incluir uma parte do código que se repete muito, neste exemplo
+A porte do head, está no arquivo includes -->
+<%- include('includes/head'); %>
+
+<body>
+  <section class="container">
+    <h1>Lorem normal</h1>
+
+    <form action="/" method="post">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <label>Cliente</label>
+      <input type="text" name="cliente">
+      <button>Submit</button>
+    </form>
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
